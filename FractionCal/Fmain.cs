@@ -250,6 +250,9 @@ namespace FractionCal
         
         }
 
-       
+        private void richTextBox1_KeyDown(object sender, KeyEventArgs e)
+        {
+
+        }
     }
 }
