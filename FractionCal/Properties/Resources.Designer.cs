@@ -61,6 +61,16 @@ namespace FractionCal.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Calwit {
+            get {
+                object obj = ResourceManager.GetObject("Calwit", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to {\rtf1\ansi\ansicpg936\deff0\nouicompat\deflang1033\deflangfe2052{\fonttbl{\f0\fnil\fcharset0 Calibri;}}
         ///{\*\generator Riched20 10.0.17134}\viewkind4\uc1 
         ///\pard\sa200\sl276\slmult1\f0\fs22\lang9{\object\objemb{\*\objclass Equation.3}\objw420\objh620{\*\objdata 
@@ -78,6 +88,26 @@ namespace FractionCal.Properties {
         internal static string Document1 {
             get {
                 return ResourceManager.GetString("Document1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap How_to {
+            get {
+                object obj = ResourceManager.GetObject("How to", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Multi {
+            get {
+                object obj = ResourceManager.GetObject("Multi", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
     }

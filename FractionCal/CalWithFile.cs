@@ -32,13 +32,21 @@ namespace FractionCal
         }
         private void btn_Cal_Click(object sender, EventArgs e)
         {
-            string clean = Regex.Replace(richTextBox1.Text, "[() ]", "");
-            double res = MathParser.EvalExpression(clean.ToCharArray());
-            res = Math.Round(res, 3);
-            string result = res.ToString();
-            //richTextBox2.Text = MathParser.EvalExpression(clean.ToCharArray()).ToString();
-            richTextBox2.Text = result;
-            Conv(result);
+            try
+            {
+                string clean = Regex.Replace(richTextBox1.Text, "[() ]", "");
+                double res = MathParser.EvalExpression(clean.ToCharArray());
+                res = Math.Round(res, 5);
+                string result = res.ToString();
+                //richTextBox2.Text = MathParser.EvalExpression(clean.ToCharArray()).ToString();
+                richTextBox2.Text = result;
+                Conv(result);
+            }
+            catch
+            {
+                MessageBox.Show("Xin nhập đúng định dạng phân số");
+            }
+            
            
         }
 

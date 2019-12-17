@@ -16,7 +16,7 @@ namespace FractionCal
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new CalWithFile());
+            Application.Run(new Welcome());
         }
     }
 }

@@ -55,11 +55,18 @@
     <Compile Include="Fmain.Designer.cs">
       <DependentUpon>Fmain.cs</DependentUpon>
     </Compile>
+    <Compile Include="Fraction.cs" />
     <Compile Include="Freg.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Freg.Designer.cs">
       <DependentUpon>Freg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_StdCal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_StdCal.Designer.cs">
+      <DependentUpon>Frm_StdCal.cs</DependentUpon>
     </Compile>
     <Compile Include="MathParser.cs" />
     <Compile Include="Program.cs" />
@@ -81,6 +88,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Freg.resx">
       <DependentUpon>Freg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_StdCal.resx">
+      <DependentUpon>Frm_StdCal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -112,6 +122,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Calwit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Multi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\How to.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

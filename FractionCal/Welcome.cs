@@ -16,5 +16,24 @@ namespace FractionCal
         {
             InitializeComponent();
         }
+
+        private void btn_Multi_Click(object sender, EventArgs e)
+        {
+            Freg main = new Freg();
+            main.Show();
+        }
+
+        private void btn_Data_Click(object sender, EventArgs e)
+        {
+            CalWithFile cal = new CalWithFile();
+            cal.Show();
+        }
+
+        private void btn_Classic_Click(object sender, EventArgs e)
+        {
+            Frm_StdCal std = new Frm_StdCal();
+            std.Show();
+
+        }
     }
 }

@@ -46,6 +46,7 @@
             // 
             // richTextBox1
             // 
+            this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.richTextBox1.Location = new System.Drawing.Point(12, 39);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(151, 96);
@@ -69,6 +70,7 @@
             // 
             // richTextBox2
             // 
+            this.richTextBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.richTextBox2.Location = new System.Drawing.Point(176, 66);
             this.richTextBox2.Name = "richTextBox2";
             this.richTextBox2.Size = new System.Drawing.Size(145, 48);
@@ -180,7 +182,7 @@
             this.label5.TabIndex = 48;
             this.label5.Text = "Result in Fraction";
             // 
-            // test
+            // CalWithFile
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -199,7 +201,7 @@
             this.Controls.Add(this.richTextBox2);
             this.Controls.Add(this.btn_Import);
             this.Controls.Add(this.richTextBox1);
-            this.Name = "test";
+            this.Name = "CalWithFile";
             this.Text = "test";
             this.ResumeLayout(false);
             this.PerformLayout();

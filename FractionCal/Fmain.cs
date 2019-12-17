@@ -242,8 +242,8 @@ namespace FractionCal
                     else MessageBox.Show("Xin nhập đúng định dạng");
                 }
 
-                label3.Text = Convert.ToString(Dapan.iTuSo);
-                label4.Text = Convert.ToString(Dapan.iMauSo);
+                Txt_Numerator.Text = Convert.ToString(Dapan.iTuSo);
+                Txt_Denominator.Text = Convert.ToString(Dapan.iMauSo);
             }
             catch { MessageBox.Show("Xin nhập đúng định dạng"); }
            
